@@ -2,12 +2,14 @@
 // Write a simple closure of your own creation.  Keep it simple!
 function pasta(dish){
   const delicious = 'yummy';
+  //NO NO
+  //console.log(vegetable);
 
   function ingredient1(veg){
     const vegetable = 'tomato';
 
     function ingredient2(starch){
-      console.log(pasta(delicous));
+      console.log(vegetable, delcious);
     }
   }
 }
