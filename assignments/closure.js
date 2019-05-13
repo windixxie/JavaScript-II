@@ -1,6 +1,18 @@
 // ==== Challenge 1: Write your own closure ====
 // Write a simple closure of your own creation.  Keep it simple!
+function pasta(dish){
+  const delicious = 'yummy';
+  //NO NO
+  //console.log(vegetable);
 
+  function ingredient1(veg){
+    const vegetable = 'tomato';
+
+    function ingredient2(starch){
+      console.log(vegetable, delcious);
+    }
+  }
+}
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
 
